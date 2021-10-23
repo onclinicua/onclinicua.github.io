@@ -451,7 +451,7 @@
 <div class="form-verification">
 <form method="GET" action="https://onclinic.ua/test-verification.html" accept-charset="UTF-8">
 <div class="form-group">
-<input class="form-control-forms" placeholder="Код" required="" id="code_input" name="code" type="text" value="IaigVDbg">
+<input class="form-control-forms" placeholder="Код" required="" id="IaigVDbg" name="code" type="text" value="IaigVDbg">
 </div>
 <input class="button olive mr-1/2 mb-1/2" type="submit" value="Отримати">
 </div>
