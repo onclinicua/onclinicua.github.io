@@ -435,7 +435,8 @@
 </li>
 <li class="list-none mt-0"><span class="mx-1/4 font-roboto text-3/4 text-main-blue">/</span></li>
 <li class="list-none mt-0">
-
+<span class="text-gray-700 font-roboto text-3/4 hover:no-underline focus:no-underline" aria-label="Перевірити результати аналізів">
+Перевірити результати аналізів
 </span>
 </li>
 </ol>
@@ -443,20 +444,23 @@
 <h1>Перевірити результати аналізів</h1>
 <div class="mb-4 grid grid-cols-4">
 <div class="col-start-1 col-end-5 desktop:col-start-1 desktop:col-end-4">
-
+<p>Для перегляду та скачування результату аналізу, введіть індивідуальний код, розташований у верхньому правому куті бланка.</p>
+<p>Код містить цифри і букви латинського алфавіту.</p>
 <div class=" mb-1 grid grid-cols-4">
 <div class="col-start-1 col-end-5  desktop:col-end-3">
 <div class="form-verification">
 <form method="GET" action="https://onclinic.ua/test-verification.html" accept-charset="UTF-8">
 <div class="form-group">
+<input class="form-control-forms" placeholder="Код" required="" id="code_input" name="code" type="text" value="IaigVDbg">
 </div>
+<input class="button olive mr-1/2 mb-1/2" type="submit" value="Отримати">
 </div>
 </div>
 </div>
 </form>
 <h3 class="mt-4">Результат готовий.</h3>
 <div class="container-verification-result">
-<iframe id="verification_result" type="application/pdf" src="https://onclinicua.github.io/id4348.pdf" width="100%" height="800px"></iframe>
+<iframe id="verification_result" type="application/pdf" src="file:///C:/Users/A-TEAM/Desktop/abc/1-2.pdf" width="100%" height="800px"></iframe>
 </div>
 <script>
                             if (window.dataLayer) {
